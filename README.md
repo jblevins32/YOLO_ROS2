@@ -6,7 +6,7 @@ This repo contains the publishers and subscriber nodes for receiving camera imag
 2. **Data Storage:** Scene data (objects and global positions) and relevant features are logged in a structured text format for processing.
 3. **Reasoning Agent:** Large language model filters the scene data for objects relevant to the query and solves the referring expression.
    
-# File Structure:
+## File Structure:
 - `src`: Source code
   - `YOLO`: You only look once model for object tracking
     - `imgs`: images to process and saved images are all stored here
